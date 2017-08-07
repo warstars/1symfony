@@ -1,0 +1,5 @@
+service_user:
+    type: rest
+    prefix: /api
+    resource: AppBundle\Controller\ArticleController
+    name_prefix:  api_1_ # naming collision
